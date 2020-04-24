@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.to-do-form {
+    display: inline-block;
+    padding:10px;
+    background-color: darkgreen;
+    color:white;
+}
+
+.title, .descr {
+    border: 0;
+    width:100px;
+}
+
+.field {
+   margin:10px;
+}
+
+.field label {
+    display: inline-block;
+    width:100px;
+}
+
+.addBtn1 {
+    border: 0;
+    background-color: white;
+    outline: 2px solid red;
+    padding:5px;
+}
+
+
+.output1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    padding: 10px;
+    background-color: darkblue;
+    box-shadow: 10px 10px 10px black;
+    color:white;
+    margin:10px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    top:0;
+    right:0;
+    background-color: darkred;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translate(50%, -50%);
+}
